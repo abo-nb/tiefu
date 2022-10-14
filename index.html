@@ -1,0 +1,91 @@
+<style>
+    body
+{
+ background: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+     /* 初始化 取消内外边距 */
+    margin: 0;
+    padding: 0;
+    /* 100%窗口高度 */
+    height: 100vh;
+    /* 弹性布局 水平垂直居中 */
+
+    /* 渐变背景 */
+    background: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    /* 指定背景图像的大小 */
+    background-size: 500%;
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: bgAnimation 15s linear infinite;
+ 
+}
+
+@keyframes bgAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.main{
+	text-align: center; /*让div内部文字居中*/
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+a:link { 
+color:#000000; 
+text-decoration:underline; 
+} 
+a:visited { 
+color:#000000; 
+text-decoration:none; 
+} 
+a:hover { 
+color:#000000; 
+text-decoration:none; 
+} 
+a:active { 
+color:#000000; 
+text-decoration:none; 
+}
+
+</style>
+
+<head>
+    <title>XU星云</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bg.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+          <ul>
+            <li><a href="https://www.bilibili.com/video/BV1Pg411r7V5/?spm_id_from=333.337.search-card.all.click&vd_source=f3828585ee4366b6e44765db60fab16a" style="text-decoration:none;">p站链接</a></li>
+            <li><a href="http://www.xiaohongshu.com/user/profile/6203d14c0000000010004a9e?xhsshare=CopyLink&appuid=6203d14c0000000010004a9e&apptime=1665752121b" style="text-decoration:none;">小红书</a></li>
+            <!-- <li><a href="https://reurl.cc/YvRmXo" style="text-decoration:none;">作品库</a></li> -->
+            <li><a href="https://space.bilibili.com/1664650576?share_from=space&share_medium=android&share_plat=android&share_session_id=57e80d6a-2d8d-4fef-ae66-283506ed405e&share_source=COPY&share_tag=s_i&timestamp=1665752077&unique_k=ZU5Y3PZ" style="text-decoration:none;">bilibili</a></li>
+            <li><a href="https://www.douyin.com/user/MS4wLjABAAAAPctV-06_FzJRtXai9uoDpC3MXnTGhBYmyA4ZJCuUkFM" style="text-decoration:none;">抖音</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+		<h1>欢迎来到Minecraft铁斧的小破站</h1>
+        <h2>不定期发布内容</h2>
+	      <h5>页面版本v1.0</h5>
+        
+	</div>
+
+</body>
